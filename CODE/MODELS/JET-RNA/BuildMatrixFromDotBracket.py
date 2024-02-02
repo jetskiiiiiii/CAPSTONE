@@ -1,5 +1,3 @@
-# code from https://www.kaggle.com/code/theoviel/generating-graph-matrices-from-the-structures/notebook
-
 import numpy as np
 
 
