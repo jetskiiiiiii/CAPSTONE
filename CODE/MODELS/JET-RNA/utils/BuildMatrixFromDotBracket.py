@@ -6,8 +6,8 @@ def get_couples(structure):
     For each closing parenthesis, I find the matching opening one and store their index in the couples list.
     The assigned list is used to keep track of the assigned opening parenthesis
     """
-    opened = [idx for idx, i in enumerate(structure) if i == "("]
-    closed = [idx for idx, i in enumerate(structure) if i == ")"]
+    opened = [idx for idx, i in enumerate(structure) if i == "(" or i == "["]
+    closed = [idx for idx, i in enumerate(structure) if i == ")" or i == "]"]
 
     assert len(opened) == len(closed)
 
