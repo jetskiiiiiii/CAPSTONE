@@ -2,6 +2,8 @@
 
 This project is for my capstone. My goal is to predict RNA structure from its sequence using machine learning.
 
+PAPER: https://docs.google.com/document/d/1hgje3w5C8stdhpRdfTPJNT4l8M9k2shDKNOXLaQT7M8/edit?usp=sharing
+
 <br/>
 
 ### File structure
