@@ -14,7 +14,6 @@ PAPER: https://docs.google.com/document/d/1hgje3w5C8stdhpRdfTPJNT4l8M9k2shDKNOXL
 
 To run the model, simply clone the repo and run the command 'python jetrna <sequence>', where <sequence> is any RNA sequence. A list of sequences can be found here: [INSERT LINK].
 
-<<<<<<< HEAD
 Currently, the model is not capable of predicting pseudoknots.
 
 ## ABOUT
@@ -40,8 +39,3 @@ Hendrixlab. (n.d.). GitHub - hendrixlab/bpRNA: bpRNA: Large-scale Annotation and
 Kunzmann, P., & Hamacher, K. (2018). Biotite: a unifying open source computational biology framework in Python. BMC Bioinformatics, 19(1). https://doi.org/10.1186/s12859-018-2367-z
 
 Singh, J., Hanson, J., Paliwal, K. K., & Zhou, Y. (2019). RNA secondary structure prediction using an ensemble of two-dimensional deep neural networks and transfer learning. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-13395-9
-=======
-You can find the model which I'm trying to implement for structure prediction inside of MODELS/JET-RNA.
-Currently, I have worked on RNA sequence representation (one hot encoding), building adjacency matrices from the dot bracket notation,
-and analyzing stuructural elements within a given RNA structure.
->>>>>>> 514f6234f0db8b5c9ecddb888da87365745c5ca4
